@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-color: black;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#heading{
+    height: 60px;
+    max-width: 100%;
+
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 15px ;
+    background-color:rgb(49, 7, 82);
+}
+
+#heading span{
+    background-color: inherit;
+    cursor: pointer;
+}
+
+
+#menu{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+#menu li{
+
+    list-style: none;
+
+    background-color: rgb(49, 7, 82);
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#menu li a{
+    text-decoration: none;
+    background-color: inherit;
+    font-size: 18px;
+
+}
+
+
+
+footer{
+    max-width: 100%;
+
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 15px;
+    background-color: rgb(49, 7, 82);
+}
+
+footer>div{
+    background-color: inherit;
+    margin: 15px 5px;
+}
+footer>div>div{
+    background-color: inherit;
+    font-size: 20px;
+}
+footer>div>div>li{
+    background-color: inherit;
+    font-size: 16px;
+}
+footer>div>div>li>a{
+    background-color: inherit;
+}
+
+.footer li{
+    margin: 5px 5px;
+    list-style: none;
+    border-bottom: 2px;
+    border-width: 3px;
+}
+
+.footer li a{
+    text-decoration: none;
+}
+
+
+#icon div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+
+
+#icon li{
+    list-style: none;
+}
+
+#icon li a{
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.insta{
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+}
+
+.ico-mode{
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    
+}
+
+
+#flag{
+    display: none;
+}
