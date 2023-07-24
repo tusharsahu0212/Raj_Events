@@ -111,6 +111,38 @@
         </div>
     </footer>
 </body>
+    
+<script>
+    function bgMode(){
+        let mode = document.getElementsByClassName("ico-mode")[0]
+
+        if (localStorage.bgflag == 1) {
+            mode.src = "./media/pics/icons8-moon-and-stars-50.png"
+    
+            localStorage.bgflag = 2
+        } else {
+            mode.src = "./media/pics/icons8-sun-48.png"
+    
+            localStorage.bgflag = 1
+    
+        }
+    }
+
+    window.addEventListener("load", () => {
+        let mode = document.getElementsByClassName("ico-mode")[0]
+    
+    
+        if (localStorage.bgflag == 2) {
+            mode.src = "./media/pics/icons8-moon-and-stars-50.png"
+                 
+    
+        } else {
+            mode.src = "./media/pics/icons8-sun-48.png"
+             }
+            })
+    
+
+</script>
 <script src="./scripts/script.js"></script>
 
 </html>
