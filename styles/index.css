@@ -80,7 +80,7 @@ main{
 .card{
     border-style: solid;
     margin: 10px;
-    height: 350px;
+    height: 365px;
     width: 260px;
     display: flex;
     flex-direction: column;
