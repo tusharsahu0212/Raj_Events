@@ -37,8 +37,8 @@ main{
 .card{
     border-style: solid;
     margin: 10px;
-    height: 325px;
-    width: 325px;
+    height: 260px;
+    width: 260px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,8 +49,8 @@ main{
 }
 
 img{
-    width: 325px;
-    height: 325px;
+    width: 260px;
+    height: 260px;
 
     border-radius: 20px;
 }
